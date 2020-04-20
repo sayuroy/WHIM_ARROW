@@ -9,7 +9,5 @@
 import Foundation
 
 class Game: ObservableObject {
-  @Published var passcount: Int = 0
-  @Published var gamecount: Int = 1
   @Published var result: Int = 0
 }

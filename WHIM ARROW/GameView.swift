@@ -12,6 +12,8 @@ struct GameView: View {
   @EnvironmentObject var game: Game
   @State var isResult: Bool = false
   @State var isButton: Bool = true
+  @State var gamecount: Int = 1
+  @State var hitcount: Int = 0
   @State var userSet: Int = 0
   @State var arrowSet: Int = 0
   @State var whim: Int = 0
@@ -39,10 +41,10 @@ struct GameView: View {
     }
     DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
       if (self.userSet == self.arrowSet){
-        self.game.gamecount += 1
-        self.game.passcount += 1
+        self.gamecount += 1
+        self.hitcount += 1
       }else{
-        self.game.gamecount += 1
+        self.gamecount += 1
       }
       self.bunki()
       withAnimation{
@@ -53,10 +55,10 @@ struct GameView: View {
   }
   
   func bunki() {
-    if (game.gamecount == 6){
-      game.result = self.game.passcount
-      game.gamecount = 1
-      game.passcount = 0
+    if (gamecount == 6){
+      game.result = self.hitcount
+      gamecount = 1
+      hitcount = 0
       self.isResult = true
     }
   }
@@ -130,7 +132,7 @@ struct GameView: View {
         Spacer()
           .frame(height: 120)
       }
-      Text("\(game.gamecount)  /❺TIME")
+      Text("\(gamecount)  /❺TIME")
         .font(.system(size: 40))
         .foregroundColor(Color.white)
         .fontWeight(.bold)
