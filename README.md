@@ -15,7 +15,7 @@
 
 ## Demo
 
-  ![demo](https://github.com/sayuroy/WHIM_ARROW/issues/1#issue-602978605)
+  https://github.com/sayuroy/WHIM_ARROW/issues/1#issue-602978605
   
 ## Play the game
  1. Download the code or clone the repository.
