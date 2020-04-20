@@ -10,6 +10,17 @@ import SwiftUI
 
 struct ResultView: View {
   @EnvironmentObject var game: Game
+  
+  func resetData() {
+    UserDefaults.standard.removeObject(forKey: "total_charenge")
+    UserDefaults.standard.removeObject(forKey:"total_hit")
+    UserDefaults.standard.removeObject(forKey:"total_rate")
+    UserDefaults.standard.removeObject(forKey:"fivehitCount")
+    game.result_total = 0
+    game.result_hit = 0
+    game.result_rate = 0
+    game.fivehit = 0
+  }
  
     var body: some View {
       ZStack{
@@ -60,14 +71,45 @@ struct ResultView: View {
             .padding(.bottom, 50)
           Group{
           Text("TOTAL CHARENGE : \(game.result_total)")
-          Text("Charenge : ")
-          Text("Rate       : %")
+            .fontWeight(.bold)
+          Text("TOTAL HIT : \(game.result_hit)")
+            .fontWeight(.bold)
+          Text("HITRATE : \(game.result_rate) %")
+            .fontWeight(.bold)
+          Text("5 HIT : \(game.fivehit) ")
+            .fontWeight(.bold)
+            .padding(.bottom, 30)
           }.foregroundColor(Color.white)
             .font(.system(size: 25))
+          ZStack{
+            Button(action: {
+              self.resetData()
+            } ) {
+              Text("        RESET RECORD")
+                .foregroundColor(Color("myblue"))
+                .font(.system(size: 30))
+                .fontWeight(.bold)
+                .padding(10)
+                .background(Color("mygreen"))
+                .cornerRadius(15, antialiased: true)
+            }
+            slowmo()
+            .frame(width: 40)
+            .foregroundColor(Color("myblue"))
+              .offset(x: -110)
+          }
           Spacer()
         }
       }
     }
+}
+
+struct slowmo: View {
+  var body: some View {
+    Image(systemName: "slowmo")
+    .resizable()
+      .aspectRatio(contentMode: .fit)
+  }
 }
 
 struct ResultView_Previews: PreviewProvider {

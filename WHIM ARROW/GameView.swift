@@ -21,7 +21,13 @@ struct GameView: View {
   @State var direction: Double = 0
   
   @UserDefault(key: "total_charenge", defaultValue: 0)
-  static var total_charenge: Int
+    static var total_charenge: Double
+  @UserDefault(key: "total_hit", defaultValue: 0)
+    static var total_hit: Double
+  @UserDefault(key: "totalRate", defaultValue: 0)
+    static var total_rate: Double
+  @UserDefault(key: "fivehitCount", defaultValue: 0)
+    static var fivehitCount: Int
   
   
   func judge() {
@@ -51,7 +57,6 @@ struct GameView: View {
         self.gamecount += 1
       }
       GameView.total_charenge += 1
-      self.game.result_total = GameView.total_charenge
       self.bunki()
       withAnimation{
         self.direction = 0
@@ -61,7 +66,15 @@ struct GameView: View {
   }
   
   func bunki() {
-    if (gamecount == 6){
+    if (gamecount == 6 && hitcount == 5){
+      GameView.fivehitCount += 1
+      game.fivehit = GameView.fivehitCount
+    }else if (gamecount == 6){
+      GameView.total_hit += Double(hitcount)
+      GameView.total_rate = (GameView.total_hit/GameView.total_charenge)*100
+      game.result_rate = Int(GameView.total_rate)
+      game.result_total = Int(GameView.total_charenge)
+      game.result_hit = Int(GameView.total_hit)
       game.result = self.hitcount
       gamecount = 1
       hitcount = 0

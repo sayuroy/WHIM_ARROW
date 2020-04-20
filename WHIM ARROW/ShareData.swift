@@ -12,4 +12,7 @@ class Game: ObservableObject {
   @Published var result: Int = 0
   
   @Published var result_total: Int = 0
+  @Published var result_hit: Int = 0
+  @Published var result_rate: Int = 0
+  @Published var fivehit: Int = 0
 }
