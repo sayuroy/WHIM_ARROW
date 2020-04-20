@@ -23,6 +23,9 @@
 		A138CF44244D59130066D18F /* shine.json in Resources */ = {isa = PBXBuildFile; fileRef = A138CF41244D59130066D18F /* shine.json */; };
 		A138CF45244D59130066D18F /* sozai02.json in Resources */ = {isa = PBXBuildFile; fileRef = A138CF42244D59130066D18F /* sozai02.json */; };
 		A138CF4B244D5FE90066D18F /* LottieactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A138CF4A244D5FE90066D18F /* LottieactionView.swift */; };
+		A138CF4D244D61CC0066D18F /* ShareData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A138CF4C244D61CC0066D18F /* ShareData.swift */; };
+		A138CF4F244D62360066D18F /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A138CF4E244D62360066D18F /* GameView.swift */; };
+		A138CF51244D62720066D18F /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A138CF50244D62720066D18F /* ResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +69,9 @@
 		A138CF41244D59130066D18F /* shine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shine.json; sourceTree = "<group>"; };
 		A138CF42244D59130066D18F /* sozai02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sozai02.json; sourceTree = "<group>"; };
 		A138CF4A244D5FE90066D18F /* LottieactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieactionView.swift; sourceTree = "<group>"; };
+		A138CF4C244D61CC0066D18F /* ShareData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareData.swift; sourceTree = "<group>"; };
+		A138CF4E244D62360066D18F /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		A138CF50244D62720066D18F /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		A42AE58969A9EC7DB64511A6 /* Pods-WHIM ARROW-WHIM ARROWUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHIM ARROW-WHIM ARROWUITests.debug.xcconfig"; path = "Target Support Files/Pods-WHIM ARROW-WHIM ARROWUITests/Pods-WHIM ARROW-WHIM ARROWUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B2977DAE4E919FC0DD996F47 /* Pods-WHIM ARROW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHIM ARROW.debug.xcconfig"; path = "Target Support Files/Pods-WHIM ARROW/Pods-WHIM ARROW.debug.xcconfig"; sourceTree = "<group>"; };
 		B38C42F5CFCF530224CDBEE8 /* Pods-WHIM ARROW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHIM ARROW.release.xcconfig"; path = "Target Support Files/Pods-WHIM ARROW/Pods-WHIM ARROW.release.xcconfig"; sourceTree = "<group>"; };
@@ -143,6 +149,9 @@
 				A1010431244D547400FC5884 /* SceneDelegate.swift */,
 				A138CF4A244D5FE90066D18F /* LottieactionView.swift */,
 				A1010433244D547400FC5884 /* ContentView.swift */,
+				A138CF4E244D62360066D18F /* GameView.swift */,
+				A138CF50244D62720066D18F /* ResultView.swift */,
+				A138CF4C244D61CC0066D18F /* ShareData.swift */,
 				A138CF3E244D58FD0066D18F /* sozai01.json */,
 				A138CF41244D59130066D18F /* shine.json */,
 				A138CF42244D59130066D18F /* sozai02.json */,
@@ -437,6 +446,9 @@
 				A1010430244D547400FC5884 /* AppDelegate.swift in Sources */,
 				A1010432244D547400FC5884 /* SceneDelegate.swift in Sources */,
 				A1010434244D547400FC5884 /* ContentView.swift in Sources */,
+				A138CF4D244D61CC0066D18F /* ShareData.swift in Sources */,
+				A138CF4F244D62360066D18F /* GameView.swift in Sources */,
+				A138CF51244D62720066D18F /* ResultView.swift in Sources */,
 				A138CF4B244D5FE90066D18F /* LottieactionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
