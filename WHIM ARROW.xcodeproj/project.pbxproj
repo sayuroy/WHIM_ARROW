@@ -26,6 +26,7 @@
 		A138CF4D244D61CC0066D18F /* ShareData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A138CF4C244D61CC0066D18F /* ShareData.swift */; };
 		A138CF4F244D62360066D18F /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A138CF4E244D62360066D18F /* GameView.swift */; };
 		A138CF51244D62720066D18F /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A138CF50244D62720066D18F /* ResultView.swift */; };
+		A17D9C2C244D9341004EA969 /* DatamanageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17D9C2B244D9341004EA969 /* DatamanageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		A138CF4C244D61CC0066D18F /* ShareData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareData.swift; sourceTree = "<group>"; };
 		A138CF4E244D62360066D18F /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		A138CF50244D62720066D18F /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		A17D9C2B244D9341004EA969 /* DatamanageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatamanageView.swift; sourceTree = "<group>"; };
 		A42AE58969A9EC7DB64511A6 /* Pods-WHIM ARROW-WHIM ARROWUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHIM ARROW-WHIM ARROWUITests.debug.xcconfig"; path = "Target Support Files/Pods-WHIM ARROW-WHIM ARROWUITests/Pods-WHIM ARROW-WHIM ARROWUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B2977DAE4E919FC0DD996F47 /* Pods-WHIM ARROW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHIM ARROW.debug.xcconfig"; path = "Target Support Files/Pods-WHIM ARROW/Pods-WHIM ARROW.debug.xcconfig"; sourceTree = "<group>"; };
 		B38C42F5CFCF530224CDBEE8 /* Pods-WHIM ARROW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHIM ARROW.release.xcconfig"; path = "Target Support Files/Pods-WHIM ARROW/Pods-WHIM ARROW.release.xcconfig"; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				A101042F244D547400FC5884 /* AppDelegate.swift */,
 				A1010431244D547400FC5884 /* SceneDelegate.swift */,
 				A138CF4A244D5FE90066D18F /* LottieactionView.swift */,
+				A17D9C2B244D9341004EA969 /* DatamanageView.swift */,
 				A1010433244D547400FC5884 /* ContentView.swift */,
 				A138CF4E244D62360066D18F /* GameView.swift */,
 				A138CF50244D62720066D18F /* ResultView.swift */,
@@ -448,6 +451,7 @@
 				A1010434244D547400FC5884 /* ContentView.swift in Sources */,
 				A138CF4D244D61CC0066D18F /* ShareData.swift in Sources */,
 				A138CF4F244D62360066D18F /* GameView.swift in Sources */,
+				A17D9C2C244D9341004EA969 /* DatamanageView.swift in Sources */,
 				A138CF51244D62720066D18F /* ResultView.swift in Sources */,
 				A138CF4B244D5FE90066D18F /* LottieactionView.swift in Sources */,
 			);

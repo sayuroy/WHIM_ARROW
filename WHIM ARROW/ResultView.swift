@@ -57,6 +57,13 @@ struct ResultView: View {
             .frame(width: 300)
             .clipped()
             .rotation3DEffect(.degrees(0), axis: (x:0, y:1, z:0))
+            .padding(.bottom, 50)
+          Group{
+          Text("TOTAL CHARENGE : \(game.result_total)")
+          Text("Charenge : ")
+          Text("Rate       : %")
+          }.foregroundColor(Color.white)
+            .font(.system(size: 25))
           Spacer()
         }
       }

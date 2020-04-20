@@ -10,4 +10,6 @@ import Foundation
 
 class Game: ObservableObject {
   @Published var result: Int = 0
+  
+  @Published var result_total: Int = 0
 }

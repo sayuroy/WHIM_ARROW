@@ -20,6 +20,10 @@ struct GameView: View {
   @State var whim_y: Double = 0
   @State var direction: Double = 0
   
+  @UserDefault(key: "total_charenge", defaultValue: 0)
+  static var total_charenge: Int
+  
+  
   func judge() {
     self.isButton.toggle()
     self.arrowSet = Int.random(in: 1...3)
@@ -46,6 +50,8 @@ struct GameView: View {
       }else{
         self.gamecount += 1
       }
+      GameView.total_charenge += 1
+      self.game.result_total = GameView.total_charenge
       self.bunki()
       withAnimation{
         self.direction = 0
