@@ -1,0 +1,6 @@
+framework module Pods_WHIM_ARROW_WHIM_ARROWUITests {
+  umbrella header "Pods-WHIM ARROW-WHIM ARROWUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
