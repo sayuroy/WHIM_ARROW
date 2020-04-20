@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BEB2AD81AB3BF195A77FC8E /* Pods_WHIM_ARROWTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D980C16BE75219D0989B9E78 /* Pods_WHIM_ARROWTests.framework */; };
+		730CBFB750FD4D9C7CCBC454 /* Pods_WHIM_ARROW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55980DA3E4E8A7D19C4E72D /* Pods_WHIM_ARROW.framework */; };
+		88D57CBAF496D8DDA2904F34 /* Pods_WHIM_ARROW_WHIM_ARROWUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F515896BB9EBB7244CCB636 /* Pods_WHIM_ARROW_WHIM_ARROWUITests.framework */; };
 		A1010430244D547400FC5884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A101042F244D547400FC5884 /* AppDelegate.swift */; };
 		A1010432244D547400FC5884 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1010431244D547400FC5884 /* SceneDelegate.swift */; };
 		A1010434244D547400FC5884 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1010433244D547400FC5884 /* ContentView.swift */; };
@@ -15,6 +18,10 @@
 		A101043C244D547C00FC5884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A101043A244D547C00FC5884 /* LaunchScreen.storyboard */; };
 		A1010447244D547D00FC5884 /* WHIM_ARROWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1010446244D547D00FC5884 /* WHIM_ARROWTests.swift */; };
 		A1010452244D547D00FC5884 /* WHIM_ARROWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1010451244D547D00FC5884 /* WHIM_ARROWUITests.swift */; };
+		A138CF3F244D58FD0066D18F /* sozai01.json in Resources */ = {isa = PBXBuildFile; fileRef = A138CF3E244D58FD0066D18F /* sozai01.json */; };
+		A138CF43244D59130066D18F /* sozai04.json in Resources */ = {isa = PBXBuildFile; fileRef = A138CF40244D59130066D18F /* sozai04.json */; };
+		A138CF44244D59130066D18F /* shine.json in Resources */ = {isa = PBXBuildFile; fileRef = A138CF41244D59130066D18F /* shine.json */; };
+		A138CF45244D59130066D18F /* sozai02.json in Resources */ = {isa = PBXBuildFile; fileRef = A138CF42244D59130066D18F /* sozai02.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1278B942DDAF6A3578407624 /* Pods-WHIM ARROWTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHIM ARROWTests.debug.xcconfig"; path = "Target Support Files/Pods-WHIM ARROWTests/Pods-WHIM ARROWTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F515896BB9EBB7244CCB636 /* Pods_WHIM_ARROW_WHIM_ARROWUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WHIM_ARROW_WHIM_ARROWUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E3717F7595EAD8DAE10C89 /* Pods-WHIM ARROWTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHIM ARROWTests.release.xcconfig"; path = "Target Support Files/Pods-WHIM ARROWTests/Pods-WHIM ARROWTests.release.xcconfig"; sourceTree = "<group>"; };
+		8633E049FAA3C4FDD67E5527 /* Pods-WHIM ARROW-WHIM ARROWUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHIM ARROW-WHIM ARROWUITests.release.xcconfig"; path = "Target Support Files/Pods-WHIM ARROW-WHIM ARROWUITests/Pods-WHIM ARROW-WHIM ARROWUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A101042C244D547400FC5884 /* WHIM ARROW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WHIM ARROW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A101042F244D547400FC5884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1010431244D547400FC5884 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,15 @@
 		A101044D244D547D00FC5884 /* WHIM ARROWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WHIM ARROWUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1010451244D547D00FC5884 /* WHIM_ARROWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHIM_ARROWUITests.swift; sourceTree = "<group>"; };
 		A1010453244D547D00FC5884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A138CF3E244D58FD0066D18F /* sozai01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sozai01.json; sourceTree = "<group>"; };
+		A138CF40244D59130066D18F /* sozai04.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sozai04.json; sourceTree = "<group>"; };
+		A138CF41244D59130066D18F /* shine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shine.json; sourceTree = "<group>"; };
+		A138CF42244D59130066D18F /* sozai02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sozai02.json; sourceTree = "<group>"; };
+		A42AE58969A9EC7DB64511A6 /* Pods-WHIM ARROW-WHIM ARROWUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHIM ARROW-WHIM ARROWUITests.debug.xcconfig"; path = "Target Support Files/Pods-WHIM ARROW-WHIM ARROWUITests/Pods-WHIM ARROW-WHIM ARROWUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2977DAE4E919FC0DD996F47 /* Pods-WHIM ARROW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHIM ARROW.debug.xcconfig"; path = "Target Support Files/Pods-WHIM ARROW/Pods-WHIM ARROW.debug.xcconfig"; sourceTree = "<group>"; };
+		B38C42F5CFCF530224CDBEE8 /* Pods-WHIM ARROW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHIM ARROW.release.xcconfig"; path = "Target Support Files/Pods-WHIM ARROW/Pods-WHIM ARROW.release.xcconfig"; sourceTree = "<group>"; };
+		D980C16BE75219D0989B9E78 /* Pods_WHIM_ARROWTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WHIM_ARROWTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55980DA3E4E8A7D19C4E72D /* Pods_WHIM_ARROW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WHIM_ARROW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				730CBFB750FD4D9C7CCBC454 /* Pods_WHIM_ARROW.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BEB2AD81AB3BF195A77FC8E /* Pods_WHIM_ARROWTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +92,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88D57CBAF496D8DDA2904F34 /* Pods_WHIM_ARROW_WHIM_ARROWUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		256C0DF63A5DF1A2613367D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2977DAE4E919FC0DD996F47 /* Pods-WHIM ARROW.debug.xcconfig */,
+				B38C42F5CFCF530224CDBEE8 /* Pods-WHIM ARROW.release.xcconfig */,
+				A42AE58969A9EC7DB64511A6 /* Pods-WHIM ARROW-WHIM ARROWUITests.debug.xcconfig */,
+				8633E049FAA3C4FDD67E5527 /* Pods-WHIM ARROW-WHIM ARROWUITests.release.xcconfig */,
+				1278B942DDAF6A3578407624 /* Pods-WHIM ARROWTests.debug.xcconfig */,
+				80E3717F7595EAD8DAE10C89 /* Pods-WHIM ARROWTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A1010423244D547400FC5884 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +119,8 @@
 				A1010445244D547D00FC5884 /* WHIM ARROWTests */,
 				A1010450244D547D00FC5884 /* WHIM ARROWUITests */,
 				A101042D244D547400FC5884 /* Products */,
+				256C0DF63A5DF1A2613367D9 /* Pods */,
+				F3A598BB616CFE45A53D924D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +140,10 @@
 				A101042F244D547400FC5884 /* AppDelegate.swift */,
 				A1010431244D547400FC5884 /* SceneDelegate.swift */,
 				A1010433244D547400FC5884 /* ContentView.swift */,
+				A138CF3E244D58FD0066D18F /* sozai01.json */,
+				A138CF41244D59130066D18F /* shine.json */,
+				A138CF42244D59130066D18F /* sozai02.json */,
+				A138CF40244D59130066D18F /* sozai04.json */,
 				A1010435244D547C00FC5884 /* Assets.xcassets */,
 				A101043A244D547C00FC5884 /* LaunchScreen.storyboard */,
 				A101043D244D547C00FC5884 /* Info.plist */,
@@ -136,6 +178,16 @@
 			path = "WHIM ARROWUITests";
 			sourceTree = "<group>";
 		};
+		F3A598BB616CFE45A53D924D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E55980DA3E4E8A7D19C4E72D /* Pods_WHIM_ARROW.framework */,
+				6F515896BB9EBB7244CCB636 /* Pods_WHIM_ARROW_WHIM_ARROWUITests.framework */,
+				D980C16BE75219D0989B9E78 /* Pods_WHIM_ARROWTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1010456244D547D00FC5884 /* Build configuration list for PBXNativeTarget "WHIM ARROW" */;
 			buildPhases = (
+				6EAD282A88502C2B19528B0B /* [CP] Check Pods Manifest.lock */,
 				A1010428244D547400FC5884 /* Sources */,
 				A1010429244D547400FC5884 /* Frameworks */,
 				A101042A244D547400FC5884 /* Resources */,
+				64C11A9F80FDD0EFFFD9AAC2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1010459244D547D00FC5884 /* Build configuration list for PBXNativeTarget "WHIM ARROWTests" */;
 			buildPhases = (
+				37949DCD97F686710E7242E7 /* [CP] Check Pods Manifest.lock */,
 				A101043E244D547D00FC5884 /* Sources */,
 				A101043F244D547D00FC5884 /* Frameworks */,
 				A1010440244D547D00FC5884 /* Resources */,
@@ -178,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A101045C244D547D00FC5884 /* Build configuration list for PBXNativeTarget "WHIM ARROWUITests" */;
 			buildPhases = (
+				EFD9F2E30518EACF5AA05AE8 /* [CP] Check Pods Manifest.lock */,
 				A1010449244D547D00FC5884 /* Sources */,
 				A101044A244D547D00FC5884 /* Frameworks */,
 				A101044B244D547D00FC5884 /* Resources */,
+				36B6B46126B818CAAA95FF59 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,8 +298,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A101043C244D547C00FC5884 /* LaunchScreen.storyboard in Resources */,
+				A138CF43244D59130066D18F /* sozai04.json in Resources */,
 				A1010439244D547C00FC5884 /* Preview Assets.xcassets in Resources */,
 				A1010436244D547C00FC5884 /* Assets.xcassets in Resources */,
+				A138CF3F244D58FD0066D18F /* sozai01.json in Resources */,
+				A138CF45244D59130066D18F /* sozai02.json in Resources */,
+				A138CF44244D59130066D18F /* shine.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +322,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36B6B46126B818CAAA95FF59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WHIM ARROW-WHIM ARROWUITests/Pods-WHIM ARROW-WHIM ARROWUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WHIM ARROW-WHIM ARROWUITests/Pods-WHIM ARROW-WHIM ARROWUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WHIM ARROW-WHIM ARROWUITests/Pods-WHIM ARROW-WHIM ARROWUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37949DCD97F686710E7242E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WHIM ARROWTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64C11A9F80FDD0EFFFD9AAC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WHIM ARROW/Pods-WHIM ARROW-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WHIM ARROW/Pods-WHIM ARROW-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WHIM ARROW/Pods-WHIM ARROW-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EAD282A88502C2B19528B0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WHIM ARROW-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFD9F2E30518EACF5AA05AE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WHIM ARROW-WHIM ARROWUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A1010428244D547400FC5884 /* Sources */ = {
@@ -432,6 +596,7 @@
 		};
 		A1010457244D547D00FC5884 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2977DAE4E919FC0DD996F47 /* Pods-WHIM ARROW.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +617,7 @@
 		};
 		A1010458244D547D00FC5884 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B38C42F5CFCF530224CDBEE8 /* Pods-WHIM ARROW.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +638,7 @@
 		};
 		A101045A244D547D00FC5884 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1278B942DDAF6A3578407624 /* Pods-WHIM ARROWTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +661,7 @@
 		};
 		A101045B244D547D00FC5884 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80E3717F7595EAD8DAE10C89 /* Pods-WHIM ARROWTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +684,7 @@
 		};
 		A101045D244D547D00FC5884 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A42AE58969A9EC7DB64511A6 /* Pods-WHIM ARROW-WHIM ARROWUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +705,7 @@
 		};
 		A101045E244D547D00FC5884 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8633E049FAA3C4FDD67E5527 /* Pods-WHIM ARROW-WHIM ARROWUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
