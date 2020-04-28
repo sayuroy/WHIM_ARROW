@@ -15,7 +15,9 @@
 
 ## Demo
 
- ![DEMO](https://user-images.githubusercontent.com/61719786/79721585-92e51b80-831d-11ea-90ba-0214a236446c.gif)
+ ![DEMO]![紹介１](https://user-images.githubusercontent.com/61719786/80442973-110e7700-8949-11ea-9688-0147bbdfdf46.gif)
+![紹介２](https://user-images.githubusercontent.com/61719786/80442978-12d83a80-8949-11ea-9ac6-125665a96c78.gif)
+
   
 ## Play the game
  1. Download the code or clone the repository.
