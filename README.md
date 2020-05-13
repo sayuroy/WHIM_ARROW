@@ -1,25 +1,41 @@
 # WHIM_ARROW
-　This is an application that you can play like the japanese game "Acchi muite hoi".
- 日本のあっち向いてほいの様なゲームアプリです。
+　ゼロからSwiftを学習し2週間で作りました！  
+　アプリ名は”WHIM ARROW”気まぐれな矢印です。
  
- ## Description
-  It is my first iOS application.
-  I tryed to create this application in a week.
-  The concept is Simple,Cheerful,Whimsical.
+ ## 概要
+ 　簡単なゲームアプリです。ユーザーは気まぐれな矢印が次に向く方向を３つの選択肢から選びます。５回勝負で、３回以上当てられたらユーザーの勝ちとなります。  
+ 　挑戦回数データはデバイスに保存され、勝率も確認できます。データの削除も行えます。
  
- ## How to play
-  Try to apply the direction that the white arrow points to next.
-  Choose one from the three green arrows.
-  You have 5 times chance, and then get the result screen.
-  Please play again and again!
+ ## 本番環境
+ 　Apple Store Connectにアプリをアップロードし、TestFlightを利用したテストユーザーのみに公開する予定です。
+  
+ ## 遊び方
+ 　playボタンを押すと始まります。３つの緑色の矢印の内、１つを選択して下さい。５回繰り返すと結果画面に遷移します。結果画面では挑戦回数や勝率の確認、データの削除が行えます。結果画面から戻るには、画面上部に指を置いて、下へスライドして下さい。  
+ 　矢印は時々気まぐれに動きます。まるで性格が宿っているかの様な動きをお楽しみ下さい。
+  
+## Gif画像
 
-## Demo
-
- ![DEMO]![紹介１](https://user-images.githubusercontent.com/61719786/80442973-110e7700-8949-11ea-9688-0147bbdfdf46.gif)
+![紹介１](https://user-images.githubusercontent.com/61719786/80442973-110e7700-8949-11ea-9688-0147bbdfdf46.gif)
 ![紹介２](https://user-images.githubusercontent.com/61719786/80442978-12d83a80-8949-11ea-9ac6-125665a96c78.gif)
 
   
-## Play the game
- 1. Download the code or clone the repository.
- 2. Open the project in the Xcode.
- 3. Click the button of build and run 
+## 制作背景
+　子供の頃から自分でゲームを作ってみたいという夢があり、プログラミングスクールでプログラミング学習を始めた事をきっかけに、自分でゼロからゲームアプリ制作に挑戦する事にしました。  
+　簡単だけれど何度もやってみたくなる、そんなゲームを目指しました。
+ 
+## 工夫した点
+　指で操作できる手軽さとテンポの良さ、見た目も賑やかになる様に工夫しました。具体的には以下の３つです。  
+ 1. 気まぐれ値を乱数で発生させて、矢印を３D回転させる事で、「気まぐれに動く性格のある矢印」を演出しました。  
+ 2. 結果画面はハーフモーダルビューを採用して、指で簡単に前の画面に戻れる様にしました。  
+ 3. ライブラリLottieを使用し、賑やかなアニメーション表示をさせています。  
+ 
+## 使用技術（開発環境）
+　アプリ言語：　Swift  
+　ツール：　Xcode  
+　ライブラリ：　Lottie  
+　プロジェクト管理：　GitHub  
+　タスク管理：　Trello  
+
+## 今後実装したい機能
+　制限時間の設定やBGMをつけて、よりテンポ良く遊べる様にしたいです。
+
